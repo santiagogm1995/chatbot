@@ -1,0 +1,25 @@
+<mvc:View
+	controllerName="com.santiago.chatbot.controller.MainView"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+>
+	<App id="idAppControl">
+		<pages>
+			<Page showHeader="false">
+				<content>
+					<FlexBox
+						alignContent="Center"
+						alignItems="Center"
+						justifyContent="Center"
+						class="marginTop"
+					>
+						<items>
+							<Image src="./resources/img/vectorpaint-300.png"/>
+						</items>
+					</FlexBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
